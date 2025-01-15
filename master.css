@@ -111,10 +111,8 @@ header nav ul li a:hover {
   color: var(--primary-color);
   border-bottom: 1px solid var(--primary-color);
 }
-.form::before {
-  content: "";
+.form {
   padding: 20px;
-  
 }
 
 .form i {
