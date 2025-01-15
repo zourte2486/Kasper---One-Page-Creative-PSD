@@ -105,14 +105,16 @@ header nav ul li a {
   position: relative;
   z-index: 2;
 }
-header nav ul li a.contact {
-  padding-right: 30px;
-}
 
 
 header nav ul li a:hover {
   color: var(--primary-color);
   border-bottom: 1px solid var(--primary-color);
+}
+.form::before {
+  content: "";
+  padding: 20px;
+  
 }
 
 .form i {
