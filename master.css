@@ -129,7 +129,7 @@ header nav ul li a:hover {
 .landing {
   min-height: 100vh;
   background-color: #1f2021;
-  background-image: url("../images/landing.jpg");
+  background-image: url("/Help/assets/owl-dark-glowing-eyes-muzzle.jpg");
   background-size: cover;
   position: relative;
 }
