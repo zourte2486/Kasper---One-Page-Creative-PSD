@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 :root{
   --primary-color: #19c8fa;
+  --transparent-color: rgb(15 116 143 / 70%);
+  --section-padding: 100px;
 }
 /* Start Global Rules */
 * {
@@ -204,7 +206,7 @@ header nav ul li a:hover {
   margin-right: 10px;
 }
 .landing .bullets li.active {
-  background-color: var(--main-color);
-  border-color: var(--main-color);
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
 }
 /* End Landing */
